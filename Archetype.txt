@@ -1,0 +1,22 @@
+# Nmap 7.91 scan initiated Fri Aug 13 22:15:59 2021 as: nmap -v -A -sC -Pn -oN Archetype.txt 10.10.10.27
+Nmap scan report for 10.10.10.27
+Host is up (3.2s latency).
+All 1000 scanned ports on 10.10.10.27 are filtered
+Too many fingerprints match this host to give specific OS details
+
+TRACEROUTE (using proto 1/icmp)
+HOP RTT        ADDRESS
+1   298.39 ms  10.10.14.1
+2   ... 7
+8   1311.28 ms 10.10.14.1
+9   1311.26 ms 10.10.14.1
+10  1310.92 ms 10.10.14.1
+11  ...
+12  1267.06 ms 10.10.14.1
+13  1267.02 ms 10.10.14.1
+14  1267.00 ms 10.10.14.1
+15  ... 30
+
+Read data files from: /usr/bin/../share/nmap
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Fri Aug 13 22:18:07 2021 -- 1 IP address (1 host up) scanned in 128.73 seconds
